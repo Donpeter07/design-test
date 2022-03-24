@@ -1,0 +1,28 @@
+.footer-design{
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+}
+.list{
+    margin-left: 50px;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+.list1{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.list2{
+    margin-left: 120px;
+    color: aliceblue;
+}
+.list3{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.search-bar{
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+}

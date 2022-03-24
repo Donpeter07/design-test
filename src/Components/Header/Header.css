@@ -1,0 +1,31 @@
+.header-main-parent{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    margin-left: 20px;
+    margin-right: 80px;
+}
+.header-search{
+    display: flex;
+    align-items: center;
+    
+}
+.header-search-input{
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 703px;
+    height: 40px;
+}
+.header-profile-icon{
+    margin-left: 60px;
+}
+.header-search-cart{
+    margin-left: 80px;
+}
+
+@media screen and (maxWidth:500px)  {
+    .classs{
+        display: none;
+    }
+}

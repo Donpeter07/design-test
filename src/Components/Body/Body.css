@@ -1,0 +1,145 @@
+.body-main-parent{
+    display: flex;
+    flex-direction: column;
+}
+.body-links{
+margin-top: 40px;
+margin-left: 70px;
+}
+.body-link{
+    text-decoration: none;
+    padding: 20px;
+    color: gray;
+}
+.body-main{
+    display: flex;
+    justify-content: space-around;
+}
+.body-sidebar{
+  
+    margin-top: 30px;
+    margin-left: 100px; 
+    
+}
+.box1  {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.box2{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.box3{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.box4{
+    
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.body-second-box{
+    border: 1px solid black;
+    margin-top: 30px;  
+    height: 458px;
+    width:300px;
+}
+.lady-image{
+    width: 100%;
+    height: 100%;
+}
+.body-third-box{
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 400px;
+    margin-top: 30px;
+    padding: 20px;
+    
+    /* align-items: center; */
+
+}
+.dollor-rate{
+    font-size: 1.5rem;
+    font-weight: 500px;
+
+}
+.body-fourth-box{
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.size-child{
+    margin-top: 20px;
+}
+.color{
+   
+    margin-top: 20px;
+}
+.parent-color{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+} 
+.color2 {
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    border-radius: 50%;
+} 
+.color3 {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}  
+.color4 {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.color5 {
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.quantity-main{
+    display: flex;
+    flex-direction: row;
+
+}
+.body-fourth-box{
+    width: 250px;
+    height: 180px;
+    padding: 25px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+
+}
+.body-fourth-box1{
+    text-align: center;
+}
+.description{
+    margin-left: 30px;
+    /* border: 1px solid black; */
+    height: 230px;
+    width: 1350px;
+}
+
+/* 
+.recommended-pdts{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .recommended-pdts-list{
+    background-color: aquamarine;
+} */
