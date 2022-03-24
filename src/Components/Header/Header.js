@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Header.css"
+import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
     return (
@@ -9,10 +10,10 @@ const Header = () => {
             </div>
             <div className="header-search">
                 <div>
-                    <input type="text" className='header-search-input'  /> 
+                    <input type="text" className='header-search-input' />
                 </div>
                 <div>
-                  
+                    <BsSearch />
                 </div>
             </div>
             <div className="header-profile-icon">

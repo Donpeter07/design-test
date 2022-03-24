@@ -97,78 +97,86 @@ const Body = () => {
       </div>
 
       <div className='description'>
-        <h3 >Description</h3>
+        <h3 className='heading' >Description</h3>
         <h5>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, optio sunt. Doloribus ducimus totam quasi eveniet rem quos necessitatibus, qui quia suscipit ratione minus fuga excepturi ut ipsa cupiditate tempora!
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita minima porro, reiciendis temporibus maxime nostrum quas doloribus qui, corporis vitae cumque in sequi fugiat ipsum sit dolores. Animi, esse fuga!
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat doloribus corporis quasi quam. Nisi ab reiciendis exercitationem ad dicta! Labore, dicta! Ea voluptatem quibusdam eius similique maiores quisquam rerum ut.
         </h5>
-     <div>
+        <div>
           <ul>
             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vfugiat minima vel natus voluptatem nemo quidem!</li>
             <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit eveniet consectetur. Atque voluptas eius architect</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. luta aspernatur a officiis, tenetur inventore neque. Beatae, modi!</li>
           </ul>
-     </div>
+        </div>
       </div>
-
+      <div>
+        <h3 className=' rec-product-heading'>Recommended Products</h3></div>
       <div className='rec-products'>
 
         <div className='rec-products-list'>
-        <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="pic5.png" />
-  <Card.Body>
-    <Card.Title>Hoodie Sweatshirt</Card.Title>
-   
-  </Card.Body>
-  <ListGroup className="list-group-flush">
-    <ListGroupItem>$61.20</ListGroupItem>
-    <button variant="contained">Shop Now</button>
-  </ListGroup>
-  
-</Card>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="pic5.png" className='rec-pic' />
+            <Card.Body>
+              <Card.Title>Hoodie Sweatshirt</Card.Title>
 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="pic6.png" />
-  <Card.Body>
-    <Card.Title>V Neck Top</Card.Title>
-   
-  </Card.Body>
-  <ListGroup className="list-group-flush">
-  <ListGroupItem>$56.20</ListGroupItem>
-    <button variant="contained">Shop Now</button>
-  </ListGroup>
-  
-</Card>
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>$61.20</ListGroupItem>
+              <Button variant="contained">Shop Now</Button>
+            </ListGroup>
 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="pic7.png" />
-  <Card.Body>
-    <Card.Title>Short Sleeve</Card.Title>
-   
-  </Card.Body>
-  <ListGroup className="list-group-flush">
-  <ListGroupItem>$45.20</ListGroupItem>
-    <button variant="contained">Shop Now</button>
-  </ListGroup>
- 
-</Card>
+          </Card>
+        </div>
 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="pic8.png" />
-  <Card.Body>
-    <Card.Title>Full Sleeve Sweater</Card.Title>
-    
-  </Card.Body>
-  <ListGroup className="list-group-flush">
-  <ListGroupItem>$71.20</ListGroupItem>
-    <button variant="contained">Shop Now</button>
-  </ListGroup>
- 
-</Card>
+        <div className='rec-products-list'>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="pic6.png" className='rec-pic' />
+            <Card.Body>
+              <Card.Title>V Neck Top</Card.Title>
+
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>$56.20</ListGroupItem>
+              <Button variant="contained">Shop Now</Button>
+            </ListGroup>
+
+          </Card>
+        </div>
+
+        <div className='rec-products-list'>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="pic7.png" className='rec-pic' />
+            <Card.Body>
+              <Card.Title>Short Sleeve</Card.Title>
+
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>$45.20</ListGroupItem>
+              <Button variant="contained">Shop Now</Button>
+            </ListGroup>
+
+          </Card>
+        </div>
+
+        <div className='rec-products-list'>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="pic8.png" className='rec-pic' />
+            <Card.Body>
+              <Card.Title>Full Sleeve Sweater</Card.Title>
+
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>$71.20</ListGroupItem>
+              <Button variant="contained">Shop Now</Button>
+            </ListGroup>
+
+          </Card>
         </div>
       </div>
     </div>
+
   )
 }
 
